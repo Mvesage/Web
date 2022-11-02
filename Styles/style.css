@@ -1,0 +1,56 @@
+body{
+    background-color: blueviolet;
+
+}
+
+.Header{
+    background-color: snow;
+}
+
+.navBar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.LHS{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    background-color:darkgray;
+    padding-right: 10px;
+    text-shadow: 1px 1px;
+}
+
+.RHS{
+    padding-right: 10px;
+    display: flex;
+}
+
+button{
+    margin: auto;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 20px;
+    border-bottom: 2px;
+    box-shadow: 2px 2px;
+}
+
+a{
+    color: #000;
+    text-decoration-line: none;
+}
+
+a:hover{
+    /* background-color: black; */
+    color: bisque;
+}
+
+button:hover{
+    background-color: black;
+    color: bisque;
+}
